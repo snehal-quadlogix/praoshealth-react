@@ -60,6 +60,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 `Are there any improvements you could make to your submission?`
 `What would you do differently if you were allocated more time?`
 ##### Still there are some improvement in this submission
+- We can add Global error handling with `Error Boundary`
+    - For prevent app crashes by catching Javascript errors at the higher application level
 - We can add lazy-search in candidate select box
     - If there are more than X candidate record, So we will load limited record using `lazy-auto-search`
 - We can improve validation
