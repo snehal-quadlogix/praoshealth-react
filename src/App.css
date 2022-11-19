@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background: #fff;
+  padding: 25px 15px;
+  float: left;
+  width: 100%;
+  box-shadow: 0px 5px 15px #ebebeb;
+}
+
+img.logo-center {
+  margin: 0 auto;
+  display: table;
+}
+
+.body-secttion {
+  float: left;
+  width: 100%;
+  padding: 50px 15px;
+  min-height: calc(100vh - 149px);
+}
+
+.body-secttion h3 {
+  text-align: center;
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+form.form-box {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+button.btn {
+  background: #332D87;
+  border: none;
+  padding: 11px 27px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+button.btn:hover,
+button.btn:focus {
+  background: #231335;
+}
+
+.candidate-select select.form-select:focus {
+  box-shadow: none;
+  border-color: #332D87;
+}
+
+.candidate-select {
+  float: left;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+iframe {
+  border: 3px solid #332D87;
+  border-radius: 9px;
+  width: 97%;
+}
+
+.candidate-select select.form-select {
+  min-height: 49px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #613794;
+}
+
+.accordian-cstm button.accordion-button {
+  color: #000;
+  font-weight: 600;
+}
+
+.accordian-cstm button.accordion-button.collapsed {
+  background: #CED4DA;
+  color: #000;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordian-cstm {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  background: #231335;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  margin: 0px;
+}
+
+.accordion-item {
+  margin-bottom: 25px;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
