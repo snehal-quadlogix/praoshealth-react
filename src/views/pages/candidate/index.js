@@ -75,7 +75,7 @@ const Candidate = () => {
                                                                 setCommentFlag={setCommentFlag}
                                                             />
                                                         </Col>
-                                                    </Row>) : (<h5 className='mt-5 text-center'>No application is available for selected candidate</h5>)}
+                                                    </Row>) : (<> <Row><Col md={2}></Col><Col md={10}><h5 className='mt-5 text-cente text-danger'>No application is available for selected candidate.</h5></Col></Row></>)}
                                             </Container>
 
                                         </Accordion>
