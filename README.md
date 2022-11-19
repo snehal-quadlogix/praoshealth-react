@@ -51,6 +51,7 @@ It correctly bundles React in production mode and optimizes the build for the be
     - `eslint`- Follow patterns found in ECMAScript/JavaScript code
 
     - `redux` package for global state management and easy code manage and `@reduxjs/toolkit`  which takes advantage of React Redux's integration with React components.
+        - Here we are using redux for store candidate's detail, application and questions and use them globally.
     
     - We are using `lazy routing` to boost the performance 
     - Added `404` error router to handle dummy route
